@@ -4,5 +4,19 @@
 // The list of which env maps to which file can be found in `.angular-cli.json`.
 
 export const environment = {
-  production: false
+    production: false,
+    Api: {
+        Eventos: {
+            baseUrl: "http://demo1797138.mockable.io/"
+        },
+        Carreira: {
+            baseUrl: "http://demo1797138.mockable.io/"
+        },
+        Objetivos: {
+            baseUrl: "http://demo1797138.mockable.io/"
+        },
+        Reunioes: {
+            baseUrl: "http://demo1797138.mockable.io/"
+        }
+    }
 };
